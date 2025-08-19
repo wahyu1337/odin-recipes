@@ -11,7 +11,7 @@ How to use 'git add' to adding a stagging area file before commtting
 How to use "git commit -m <'message'>" to commit a changes with message and "git commit" without a change
 
 
-Using 'git push' to push our local file into the github. (the file has to be in stage area) **This need to a include our password phprase
+Using 'git push' or 'git push origin main' to push our local file into the github. (the file has to be in stage area) **This need to a include our password phprase
 
 Using 'git pull' to pull from github file to our local file machine.
 
@@ -21,5 +21,6 @@ cd 'folder name' if a folder have a blank space (space)
 
 
 ~ HTML ~
+
 in tag <a href="" rel="noopener"> </a> **To prevent access the original page.
 in tag <a href="" rel="noreferrer"></a> **For Privacy and Security, they don't know where we come from.
