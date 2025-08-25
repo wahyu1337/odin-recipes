@@ -30,3 +30,14 @@ in tag <a href="" rel="noopener"> </a> **To prevent access the original page.
 in tag <a href="" rel="noreferrer"></a> **For Privacy and Security, they don't know where we come from.
 
 I've been using <a> tags to connecting "mainpage" into some recipes pages.
+
+~ CSS ~
+using width: {value}; and margin: 0 auto; to centered manually.
+using display: block, inline-block, flex, inline-flex;
+overlay brightness for image using "filter: brightness (1); background-color:white; overlay: {value}";
+some safety font-family list like "Verdana, Arial, sans-serif";
+
+using a <- symbol to go backpage or mainpage
+#backPage::before {
+    content: "\2190  "; /* simple left arrow */
+}
