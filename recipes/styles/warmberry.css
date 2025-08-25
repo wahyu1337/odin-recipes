@@ -1,0 +1,27 @@
+body{
+    width: 650px;   
+    margin: 0 auto;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.header{
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.header img {
+    width: 450px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0,0,0, 0.55);
+}
+
+#backPage{
+    margin-left: 25px;
+}
+
+#backPage::before {
+    content: "\2190  "; /* simple left arrow */
+}

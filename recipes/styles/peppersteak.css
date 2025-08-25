@@ -1,0 +1,51 @@
+body {
+    width: 700px;
+    margin: 0 auto;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 14px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.dish {
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.paraphTitle{
+    font-size: 16px;
+}
+
+
+.cook{
+    box-sizing: content-box;
+    width: 500px;
+}
+
+.dish, .ingredients {
+    width: 450px;
+    border-radius: 7px 7px;
+}
+
+.ingredients:hover{
+    transition: 0.15s;
+    filter: brightness(1);
+    background-color: white;
+    opacity: 0.7;
+}
+
+.cooking li{
+    padding-top: 15px;
+}
+
+#backPage{
+    margin-left: 40px;
+}
+
+#backPage::before {
+    content: "\2190     "; /* simple left arrow */
+}
